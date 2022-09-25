@@ -1,7 +1,6 @@
-def print_hi(name):
-    print(f'Hi, {name}')
+import cv2
 
+CV=cv2.imread('Face.jpg')
+cv2.imshow('Face',CV)
 
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
+cv2.waitKey(0)
