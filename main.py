@@ -1,7 +1,6 @@
 import cv2
 import numpy
 
-
 img=cv2.imread('Face.jpg')
 img = cv2.resize(img, (img.shape[1] // 2, img.shape[0] // 2))
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
